@@ -9,7 +9,7 @@
   
   FROM Countries as a JOIN (Select names, gdp From countries as b WHERE b.continent LIKE 'Europe') ON a.gdp > b.gdb
   
-  WHERE a.name NOT LIKE 'Europe'
+  WHERE a.continent NOT LIKE 'Europe'
  
 2
 
