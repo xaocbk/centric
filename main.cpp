@@ -14,8 +14,8 @@ std::string  Names[]= {"-----","Борнов","Зыков","Меркушев","�
 
 struct Candidate
 {
-  int rating;
-  int id;
+ 	 int rating;
+	 int id;
 };
 
 class PQueue
